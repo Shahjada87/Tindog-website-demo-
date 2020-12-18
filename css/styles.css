@@ -1,0 +1,206 @@
+
+body {
+  font-family: 'Padauk', sans-serif;
+  text-align: center;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Metal Mania', 'cursive';
+}
+
+.big-heading {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+.second-heading {
+  font-size: 3rem;
+  line-height: 2;
+}
+
+.third-heading {
+  letter-spacing: 5px;
+}
+
+
+/* TITLES */
+
+#title {
+
+  color: #000;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+.download-button {
+  margin: 5% 3% 4% 0;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.7rem;
+  font-family: "Padauk";
+  color: black;
+  font-weight: 800;
+}
+
+a {
+  color: rgba(255, 255, 255, .5);
+}
+
+a:hover {
+  color: white;
+}
+
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 1.35rem;
+}
+
+/* Image */
+.top-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 27%;
+}
+
+@media (max-width:1130px) {
+  .top-img {
+    position: static;
+    transform: none;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* FEATURES */
+#features {
+  padding: 7% 10%;
+  z-index: 1;
+  position: relative;
+}
+
+.awesome {
+  color: #e16428;
+  padding-bottom: 1.2rem;
+}
+
+.awesome:hover {
+  color: #e41749;
+}
+
+.all-features {
+  width: 60%;
+  line-height: 2;
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  padding: 3%;
+}
+
+.carousel-item {
+  padding: 7% 16%;
+}
+
+/* PRESS */
+#press {
+  padding-bottom: 3%;
+  background-color: #e16428;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 5rem;
+}
+
+.pricing-btn {
+  margin: 5% 3% 5% 0;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.pricing-column {
+  padding: 2rem;
+}
+
+/* FOOTER */
+#cta {
+  padding: 3% 15%;
+}
+
+.footer-h3 {
+  font-size: 2.7rem;
+  padding-top: 4%;
+}
+
+.download-btn {
+  margin: 5% 3% 4% 0;
+  width: 30%;
+}
+
+#footer {
+  padding: 3% 15%;
+}
+
+.font-awesome {
+  font-size: 0.9em;
+  margin: 20px 0 0;
+}
+
+a {
+  color: black;
+  padding: 0 0.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #14274e;
+}
+
+/* COLOR */
+
+.white-section{
+background-color: #fff;
+ }
+
+.colored-section{
+   background-color: #e41749;
+   color: black;
+ }
+
+#testimonials{
+  background-color: #e16428;
+}
+
+#press{
+}
